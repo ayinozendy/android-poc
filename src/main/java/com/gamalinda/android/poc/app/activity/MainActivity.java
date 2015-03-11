@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
     @AfterViews
     void afterViews() {
 //        DrawerNavigation_.intent(this).start();
-        CustomTabNavigation_.intent(this).start();
+//        CustomTabNavigation_.intent(this).start();
+        SpinnerTitleNavigation_.intent(this).start();
     }
 }
